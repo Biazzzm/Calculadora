@@ -17,6 +17,7 @@ internal class Program
         double valor1 = 0;
         double valor2 = 0;
         bool testando = false;
+        var igor = 0;
         Console.WriteLine("Primeiro Valor: ");
 
         var input1 = Console.ReadLine();
@@ -450,19 +451,21 @@ internal class Program
             Console.WriteLine("Valor da Altura em metros:");
             var input2 = Console.ReadLine();
 
-            try{
-                testando = double.TryParse(input2,out double number);
+            try
+            {
+                testando = double.TryParse(input2, out double number);
                 alturaT = double.Parse(input2);
             }
-            catch{
+            catch
+            {
                 MinhaExcecao();
             }
-        }while(testando==false);
+        } while (testando == false);
 
 
 
 
-                double area = baseT * alturaT / 2;
+        double area = baseT * alturaT / 2;
 
         Console.WriteLine($"A área do triângulo é: {area} m²");
 
