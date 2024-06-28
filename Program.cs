@@ -376,7 +376,7 @@ internal class Program
         Console.WriteLine("Calculadora");
         Console.WriteLine(" ");
         Console.WriteLine("-----------------------------");
-        Console.WriteLine("|          Menu:             |\n|[1] - Soma                  | \n|[2] - Subtração             |\n|[3] - Multiplicacao         |\n|[4] - Divisão               |\n|[5] - Exponencial           |\n|[6] - Calculo de Bharkara   |\n|[7] - Calculo Área Triângulo|\n|[8] - Sair                  |");
+        Console.WriteLine("|          Menu:             |\n|[1] - Soma                  | \n|[2] - Subtração             |\n|[3] - Multiplicacao         |\n|[4] - Divisão               |\n|[5] - Exponencial           |\n|[6] - Calculo de Bhaskara   |\n|[7] - Calculo Área Triângulo|\n|[8] - Sair                  |");
         Console.WriteLine("-----------------------------");
         Console.WriteLine("Selecione uma opção: ");
         var opcao = Console.ReadLine();
