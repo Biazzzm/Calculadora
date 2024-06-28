@@ -17,7 +17,7 @@ internal class Program
         double valor1 = 0;
         double valor2 = 0;
         bool testando = false;
-        var igor = 0;
+       
         Console.WriteLine("Primeiro Valor: ");
 
         var input1 = Console.ReadLine();
